@@ -2,11 +2,6 @@
 
 > This is a simple Javascript application that will entertain your free time. If you like competition and you feel sentimental for old games- this apllication is for you!
 
-## Table of contents
-
-- [Screenshots](#screenshots)
-- [Setup](#setup)
-
 ## Screenshots
 
 ![](roshambo.gif)
