@@ -1,0 +1,224 @@
+body{
+    margin:0;
+    width: 100%;
+    background-color: #10316b;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#game{
+    text-align: center;
+}
+
+header{
+    margin-top:20px;
+    margin-bottom:35px;
+}
+
+#table{
+    margin:20px auto;
+    max-width:50%;
+    max-height: 200px;
+    background-color: #000;
+    border: 5px solid #eeeeee;
+    border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+}
+
+h1{
+    font-size: 40px;
+    color:#e25822;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+h2{
+    font-size: 30px;
+    color:#f2d974;
+    margin-bottom: 10px;
+}
+
+#message{
+    font-size: 20px;
+    color: #eeeeee;
+}
+
+#points{
+    font-size: 18px;
+    color: #eeeeee;
+    margin:10px auto;
+    max-width:50%;
+}
+
+#playerPoints{
+    color:#d1274b;
+}
+
+#computerPoints{
+    color:#d1274b;
+}
+
+#buttons{
+    margin-top:30px;
+}
+
+.btn.btn-sm{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #d1274b;
+    font-size: 1rem;
+    text-align: center;
+    color: #d1274b;  
+}
+
+.btn.btn-sm:hover{
+    background-color: #d1274b;
+    color: black;
+}
+
+.btn.btn-lg {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #000;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #f2d974;
+}
+
+.btn.btn-lg:hover{
+    background-color: #f2d974;
+    color: black;
+}  
+
+#playerChoice{
+    width:20%;
+    height: auto;
+    margin-top:10px;
+}
+
+#computerChoice{
+    width:20%;
+    height: auto;
+    margin-top:10px;
+}
+
+.col{
+    margin:30px auto;
+}
+
+@media(orientation:portrait) {
+
+    header{
+        margin-top:12px;
+        margin-bottom:20px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    #message{
+        font-size: 10px;
+        margin-bottom:20px;
+    }
+    
+    #table{
+        margin:10px auto;
+        max-width:90%;
+        max-height: 149px;
+        border: 2px solid #eeeeee;
+    }
+    
+    h2{
+        font-size:15px;
+        margin-bottom: 5px;
+    }
+    
+    #points{
+        font-size: 15px;
+        margin:10px auto;
+        max-width:90%;
+    }
+
+    #buttons{
+        margin-top:10px;
+    }
+    
+    .btn.btn-sm{
+        font-size: 0.6rem;  
+    }
+    
+    .btn.btn-lg {
+        font-size: 0.8rem;
+    }
+    
+    #playerChoice{
+        width:40%;
+    }
+    
+    #computerChoice{
+        width:40%;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    
+    header{
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    #message{
+        font-size: 10px;
+        margin-bottom:10px;
+    }
+    
+    #table{
+        margin:1px auto;
+        max-width:80%;
+        max-height: 87px;
+        border: 3px solid #eeeeee;
+    }
+    
+    h2{
+        font-size:10px;
+    }
+    
+    #points{
+        font-size: 10px;
+        margin:5px auto;
+        max-width:80%;
+    }
+
+    #buttons{
+        margin-top:5px;
+    }
+    
+    .btn.btn-sm{
+        font-size: 0.4rem;  
+    }
+    
+    .btn.btn-lg {
+        font-size: 0.5rem;
+    }
+    
+    #playerChoice{
+        width:20%;
+        margin-top:2px;
+    }
+    
+    #computerChoice{
+        width:20%;
+        margin-top:2px;
+    }
+
+    .col{
+        margin:15px auto;
+    }
+
+}
